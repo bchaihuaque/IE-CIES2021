@@ -4,6 +4,7 @@
 * PROFESOR	: STANISLAO MALDONADO
 * ALUMNO	: BRUNO CHAIHUAQUE DUEÑAS
 * FECHA		: 19/06/2021
+* LINK		: https://github.com/bchaihuaque/IE-CIES2021
 ********************************************************************************
 set more off // para mostrar mejor los resultados de tablas largas
 // Datos educativos de Loreto (2011)
