@@ -72,11 +72,18 @@ foreach covariates of varlist m500_c_11 m500_m_11 incidencia_pobreza_total incid
 	ttest `covariates', by(treatment_simple) unequal
 }
 
+orth_out m500_c_11 m500_m_11 incidencia_pobreza_total incidencia_pobreza_extrema gini gasto_pc, by(treatment_simple) se compare test count
+// con este análisis con el orth_out se ve claramente que la única variable que tiene diferencias significativas es gini
+
 *Test de diferencias de distribución
 foreach covariates of varlist m500_c_11 m500_m_11 {
 	ksmirnov `covariates', by(treatment_simple)
 }
 
+* B. USER-WRITTEN COMMANDS
+* Opción : aleatorizar
+help findit
+// la función findit 
 
 
 
